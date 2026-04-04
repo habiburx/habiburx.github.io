@@ -1,10 +1,10 @@
 ---
-title: "Quarto Academic, PhD"
-description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
+title: "Md Habibur Rahman"
+description-meta: "Graduate Teaching Assistant and PhD Researcher in Computer Science at Old Dominion University. My research lies at the intersection of artificial intelligence and security, with a focus on adversarial robustness, privacy-preserving ML, and AI safety."
 image: "files/images/placeholder4.JPG"
 page-navigation: false
-toc: false
-#sidebar: false
+toc: true
+sidebar: false
 page-layout: full
 
 about:
@@ -66,6 +66,13 @@ listing:   # Comment the listing section and delete corresponding lines in the i
 ---
 
 :::{#hero-heading}
+
+Welcome to my homepage! I'm **Md Habibur Rahman** and I am a first year PhD student at [Old Dominion University](https://www.odu.edu/){target="_blank"}. I have completed my Master of Science in Computer Science from [Jahangirnagar University](https://juniv.edu/department/cse){target="_blank"} and pursued a Bachelor of Science in Computer Science and Engineering from [Daffodil International University](https://daffodilvarsity.edu.bd/){target="_blank"}.
+
+Previously I have worked with [Prof. Md Abul Kalam Azad](https://juniv.edu/teachers/makazad){target="_blank"} 
+and [Prof. Md Ismail Jabiullah](https://www.researchgate.net/profile/Md-Ismail-Jabiullah){target="_blank"}.I also had the opportunity to collaborate with [Md Taminul Islam](https://taminulislam.github.io/){target="_blank"} in a project.
+
+Outside of my academic pursuits, you'll find me immersed in a good book, exploring the unknown via travelling, or enjoying my leisure time with video games such as [Fortnite](https://www.fortnite.com/){target="_blank"} and [Valorant](https://playvalorant.com/en-gb/){target="_blank"}. Thanks for visiting!
 
 I'm a [Quarto Academeic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io).
 
