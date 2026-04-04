@@ -3,14 +3,17 @@ project:
   output-dir: docs
 
 # Meta
-description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
-author-meta: "Dr. Gang He"
+description-meta: "Md Habibur Rahman | PhD Student in CS at ODU"
+author-meta: "Md Habibur Rahman"
 
 website:
-  title: "Quarto Academic"
-  image: "https://quarto.org/quarto.png"
-  description: "Quarto Academic Website Template adapted by Dr. Gang He"
- 
+  title: "Md Habibur Rahman | PhD Student"
+  description: "Graduate Teaching Assistant and PhD Researcher in Computer Science at Old Dominion University. My research lies at the intersection of artificial intelligence and security, with a focus on adversarial robustness, privacy-preserving ML, and AI safety."
+  site-url: "https://habiburx.github.io/"
+  repo-url: https://github.com/habiburx/habiburx.github.io
+
+  image: ""
+
   navbar:
     background: light  # You can change the background color here
 
@@ -20,27 +23,27 @@ website:
       - text: About
         menu:
           - text: News
-            href: posts.qmd#category=news
+            href: qmds/posts.qmd#category=news
           - text: Events
-            href: posts.qmd#category=event      
+            href: qmds/posts.qmd#category=event      
           - text: Contact
-            href: contact.qmd             
+            href: qmds/contact.qmd             
       - text: Research
         menu:
           - text: List of Publications
-            href: publications.qmd
+            href: qmds/publications.qmd
           - text: Selected Papers
-            href: posts.qmd#category=paper
+            href: qmds/posts.qmd#category=paper
           - text: Grants
-            href: projects.qmd                                
+            href: qmds/projects.qmd                                
       - text: Teaching # Comment the Teaching part out to remove the Teaching page
-        href: teaching.qmd
+        href: qmds/teaching.qmd
       - text: Outreach
         menu:        
         - text: Presentations
-          href: posts.qmd#category=presentation                   
+          href: qmds/posts.qmd#category=presentation                   
       - text: Group   # Comment the Group part out to remove the Group page
-        href: people.qmd
+        href: qmds/people.qmd
 
     right: 
       - text: CV
@@ -58,36 +61,34 @@ website:
   page-navigation: true
   
   page-footer: 
-    left: "[Your Name](http://www.github.com) &copy; <script>document.write(new Date().getFullYear())</script>" 
-    center: "Build on [Quarto Academic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io)"
-    right:  
-      - icon: github
-        href: https://github.com/drganghe/quarto-academic-website-template
-        target: _blank
-      - text: "{{< fa brands bluesky >}}" 
-        href: https://bsky.app
-        target: _blank
-      - icon: rss
-        href: posts.xml
-        target: _blank  
+    # left: "[Your Name](http://www.github.com) &copy; <script>document.write(new Date().getFullYear())</script>" 
+    center: ""
+    # right:  
+    #   - icon: github
+    #     href: https://github.com/drganghe/quarto-academic-website-template
+    #     target: _blank
+    #   - text: "{{< fa brands bluesky >}}" 
+    #     href: https://bsky.app
+    #     target: _blank
+    #   - icon: rss
+    #     href: posts.xml
+    #     target: _blank  
   
   search:
     location: navbar
-    type: textbox
+    type: overlay
   
-  reader-mode: true
+  reader-mode: false
 
   draft-mode: unlinked
   
-  repo-url: https://github.com/drganghe/quarto-academic-website-template
-#  repo-actions: [edit, issue, source]
   
   open-graph: true
   
   twitter-card: true 
-#  card-style: summary      
+  card-style: summary 
+  creator: "@mhabiburx"     
   
-  site-url: "https://drganghe.github.io/quarto-academic-website-template"
   
   google-analytics:
     tracking-id: ""  # Please delete or replace with your own tracking ID
@@ -100,7 +101,9 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
-    footnotes-hover: true
+    toc-location: right
+    toc-depth: 3
+    footnotes-hover: false
     code-copy: true
     code-link: true
     code-overflow: wrap
@@ -108,6 +111,6 @@ format:
     link-external-icon: false
     link-external-newwindow: true
     email-obfuscation: javascript
-    link-external-filter: '^(?:http:|https:)\/\/drganghe\.github\.io\/custom'
+    link-external-filter: '^(?:http:|https:)\/\/habiburx\.github\.io\/custom'
     include-in-header: "files/includes/_academic.qmd"
 

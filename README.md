@@ -1,39 +1,54 @@
-# Quarto Academic Website Template
+# Md Habibur Rahman - Academic Portfolio
 
-Welcome! This is a simple and customizable template for building your own academic website using [Quarto](https://quarto.org/). You can easily fork, edit, and publish your site with just a few steps.
+🕸️ **Live Site:** [habiburx.github.io](https://habiburx.github.io)
 
-## 🚀 Quick Start
+---
+## About
+This is personal academic portfolio of **Md Habibur Rahman**, PhD Student and Graduate Teaching Assistant (School of Cybersecurity) in Computer Science at Old Dominion University.
 
-1. **Star** this repository to bookmark it for future reference.  
-1. **Fork** this repository and rename it to `YourGitHubUserName.github.io`.  
-1. **Test to publish** your site using [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch) (make sure [configuring](https://quarto.org/docs/publishing/images/gh-pages-docs-dir.png) your GitHub repository to publish from the `docs` directory, not the `root` folder). 
-1. **Check** if your website works or not. If successful, you should see exactly the same website as [this one](https://drganghe.github.io/quarto-academic-website-template/) using your own Github Pages url:
-   - `https://YourGitHubUserName.github.io` if your repository name is `YourGitHubUserName.github.io`
-   - `https://YourGitHubUserName.github.io/RepositoryName` for other `RepositoryName`
-   - Errors:
-      - If [404](/files/images/Error1.png), it is likely you haven't set up GitHub Pages
-      - If it shows the [README](/files/images/Error2.png) file, it is likely you've published from the `root` folder, not the `docs` directory
+---
+## Research Interests
+- 🔐 AI Security
+- 🛡️ Computer Security & Privacy
+- 🔗 Decentralized System Security
+- 🔑 Applied Cryptography
+- ⚔️ Adversarial Machine Learning
 
-If you achieve this milestone, congratulations! You are now ready to start updating your website:
+---
+## Built With
+Built with [Quarto](https://quarto.org/) and deployed via [GitHub Pages](https://pages.github.com/).
 
-1. **Update** the `_quarto.yml` file to configure your site’s basic settings.  
-1. **Add or edit content** in the following files and folders:
-   - `/posts/` – posts about publications, news, events  
-   - `teaching.qmd` – teaching information  
-   - `projects.yml` – research or other projects  
-   - `people.qmd` and `/people/` – team or collaborators  
-   - `/files/` - profiles, images, pdfs, and includes 
-1. [**Render and preview**](https://quarto.org/docs/websites/#website-preview) your site locally.  
-1. **`Commit` to publish** your updates.
-1. **Refine and polish** your content and design as needed.  
-1. ✅ Enjoy your new website!
-1. **Link** your website on your official pages to let Google and AI bots include in their search results.
+---
+## Repository structure
 
-## 🛠 Requirements
+```
+.
+├── _quarto.yml        # Site config, navigation, theme
+├── index.qmd          # Homepage / bio
+├── publications.qmd   # Publications page
+├── projects.qmd       # Projects page
+├── projects.yml       # Projects data (edit this to add projects)
+├── posts.qmd          # Blog / news listing page
+├── posts/             # Individual post files (.qmd)
+├── teaching.qmd       # Teaching page
+├── people.qmd         # People / team page
+├── people/            # Individual people profiles
+├── contact.qmd        # Contact page
+├── references.bib     # Publications in BibTeX format
+├── files/             # Images, PDFs, CV, and other assets
+├── custom.css         # Custom style overrides
+├── styles.css         # Base styles
+├── docs/              # Auto-generated site output (do not edit)
+└── _extensions/       # Quarto extensions
+```
 
-- Install [Quarto](https://quarto.org/docs/get-started/)
-- Learn the basics from the [official Quarto documentation](https://quarto.org/docs/websites/)
+---
+## Contact
+- 📧 Email: [mhrahman.cs@gmail.com](mailto:mhrahman.cs@gmail.com), [mrahm015@odu.edu](mailto:mrahm015@odu.edu)
+- 🎓 Google Scholar: [Link](https://scholar.google.com/citations?user=F4vGKhgAAAAJ&hl=en&authuser=1)
+- 💼 LinkedIn: [Link](https://www.linkedin.com/in/rahman-habibur/)
+- 🐙 GitHub: [@habiburx](https://github.com/habiburx)
 
-## 📚 More Examples & Tips
-
-- [Quarto Academic Site Examples and Tips](https://drganghe.github.io/quarto-academic-site-examples.html)
+---
+## License
+This work is licensed under MIT — see [LICENSE](LICENSE) for details.
